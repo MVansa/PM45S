@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <!-- Product name -->
+    <TextView
+        android:id="@+id/tvNomeProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Produto"
+        android:textSize="14sp"/>
+
+    <!-- Product price -->
+    <TextView
+        android:id="@+id/tvPrecoProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor do Produto"
+        android:textSize="12sp"/>
+
+    <!-- Amount paid by the person for this product -->
+    <TextView
+        android:id="@+id/tvValorPago"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Pago"
+        android:textSize="12sp"/>
+</LinearLayout>
